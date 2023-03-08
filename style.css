@@ -293,6 +293,12 @@ h3 {
     text-underline-offset: 5px;
 }
 
+@media (max-width: 670px) {
+    .items > .container {
+        text-align: center;
+    }
+}
+
 @media (max-width: 640px) {
     .desktop {
         display: none;
@@ -304,3 +310,5 @@ h3 {
         gap: 5px;
     }
 }
+
+
