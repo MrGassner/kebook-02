@@ -148,6 +148,12 @@ p {
     color: white;
     padding: 1em 3em;
     margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.btn > button:hover {
+    background-color: white;
+    color: orangered;
 }
 
 @media (max-width: 900px) {
@@ -162,6 +168,12 @@ p {
 
 .btn > button:first-child {
     background-color: red;
+    border: red;
+}
+
+
+.btn > button:first-child:hover {
+    background-color: white;
     border: red;
 }
 
